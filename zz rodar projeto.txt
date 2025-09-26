@@ -1,0 +1,12 @@
+npm run dev
+http://localhost:3000
+
+git config --global user.name "Remmylle"
+git config --global user.email "remmyllem@gmail.com"
+
+
+node_modules
+.next
+.env.local
+.vscode
+.DS_Store
