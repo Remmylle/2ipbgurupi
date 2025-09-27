@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="fixed w-full bg-green-900 text-white shadow-md z-50">
       <nav className="container mx-auto flex justify-between items-center p-4">
         <Link href="/" className="text-lg font-bold">
-          2ª IPB Gurupi
+          2ª Igreja Presbiteriana de Gurupi
         </Link>
 
         {/* Botão Mobile */}
