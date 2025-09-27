@@ -14,3 +14,14 @@ node_modules
 
 git remote add origin https://github.com/Remmylle/2ipbgurupi.git
 git push -u origin main
+
+
+
+alterações feitas ai seguir esses passo 
+git add .
+
+git commit -m "Nova mensagem"
+
+git push origin main
+
+esse já atualiza automaticamente git remote set-url origin https://github.com/Remmylle/2ipbgurupi.git
