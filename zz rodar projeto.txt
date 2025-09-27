@@ -10,3 +10,7 @@ node_modules
 .env.local
 .vscode
 .DS_Store
+
+
+git remote add origin https://github.com/Remmylle/2ipbgurupi.git
+git push -u origin main
