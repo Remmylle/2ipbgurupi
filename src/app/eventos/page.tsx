@@ -6,17 +6,18 @@ export default function EventosPage() {
       <div className="space-y-6">
         <div className="bg-white p-6 rounded-2xl shadow-lg">
           <h4 className="text-2xl font-semibold text-green-900">Culto de Domingo</h4>
-          <p className="text-gray-600">Todo domingo às 19h</p>
+          <p className="text-gray-600">Escola Biblica Dominial domingo às 09h</p>
+          <p className="text-gray-600">Culto Evangelistico às 19h</p>
         </div>
 
         <div className="bg-white p-6 rounded-2xl shadow-lg">
           <h4 className="text-2xl font-semibold text-green-900">Estudo Bíblico</h4>
-          <p className="text-gray-600">Quartas às 20h</p>
+          <p className="text-gray-600">Quartas às 19:30h</p>
         </div>
 
         <div className="bg-white p-6 rounded-2xl shadow-lg">
           <h4 className="text-2xl font-semibold text-green-900">Encontro de Jovens</h4>
-          <p className="text-gray-600">Sábados às 18h</p>
+          <p className="text-gray-600">Sábados às 19h</p>
         </div>
       </div>
     </section>
