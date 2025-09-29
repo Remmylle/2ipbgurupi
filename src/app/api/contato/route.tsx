@@ -23,7 +23,7 @@ export async function POST(request: Request) {
         const data = await resend.emails.send({
             from: 'Formulário Contato <onboarding@resend.dev>', // 🛑 Mudar para um domínio que você pode verificar no Resend
             to: TARGET_EMAIL, 
-            reply_to: email, // Resposta irá para o e-mail do remetente
+            replyTo: email, // Resposta irá para o e-mail do remetente
             subject: `Mensagem de Contato: ${assunto}`,
             html: `
                 <h1>Nova Mensagem do Site da Igreja</h1>
