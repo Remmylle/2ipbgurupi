@@ -16,7 +16,7 @@ export default function Navbar() {
     { href: "/sobre", label: "Sobre" },
     { href: "/pregacoes", label: "Pregações" },
     { href: "/eventos", label: "Eventos" },
-    { href: "/ministerios", label: "Ministérios" },
+    { href: "/ministerios", label: "Sociedades" },
     { href: "/ofertas", label: "Ofertas" },
     { href: "/contato", label: "Contato" },
     // 🛑 NOVO LINK MANTIDO: Fotos

@@ -58,7 +58,7 @@ export default function Home() {
             <li className="font-semibold text-gray-800">
                 <span className="text-green-800">Domingo à noite:</span>
                 <br />
-                19:00h - Culto Evangelístico
+                19:00h - Culto Solene
             </li>
           </ul>
         </div>
