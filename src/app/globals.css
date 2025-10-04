@@ -1,3 +1,38 @@
+/* src/app/globals.css */
+
+/* 🛑 ADICIONE O IMPORT DO TAILWIND */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🛑 NOVO: ADICIONE O CSS DO CALENDÁRIO */
+@import 'react-big-calendar/lib/css/react-big-calendar.css'; 
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* * Removi a declaração @theme inline, pois ela é específica 
+ * de um antigo modo de estilização do Next.js e não é padrão no Tailwind. 
+ * Se ela for essencial para seu projeto, mantenha-a, mas ela não é necessária para o calendário.
+ */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 @import "tailwindcss";
 
 :root {
