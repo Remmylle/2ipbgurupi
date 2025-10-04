@@ -1,6 +1,6 @@
 // src/app/fotos/page.tsx
 
-import Image from 'next/image';
+//import Image from 'next/image';
 import PhotoSlider from '@/components/PhotoSlider'; 
 // OBS: Certifique-se de que PhotoSlider.tsx está em src/components/
 
