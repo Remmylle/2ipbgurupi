@@ -78,7 +78,7 @@ export default function ContatoPage() {
     <section className="py-20 max-w-6xl mx-auto px-4">
       <h1 className="text-4xl font-bold text-green-900 mb-6">Contato</h1>
       <p className="text-lg text-gray-700 mb-6">
-        Ficaremos felizes em receber sua visita ou mensagem!
+        Ficaremos felizes em receber sua visita, mensagem ou pedido de oração!
       </p>
 
       {/* Detalhes de Contato */}
