@@ -10,7 +10,9 @@ export default function Home() {
 
   return (
     <section className="text-center">
-      {/* Hero Section */}
+      {/* ---------------------------------------------------------------- */}
+      {/* 🏛️ HERO SECTION */}
+      {/* ---------------------------------------------------------------- */}
       <div className="relative w-full h-[65vh] md:h-[70vh]">
         <Image
           src="/igreja.jpg"
@@ -19,10 +21,7 @@ export default function Home() {
           className="object-cover"
           priority
         />
-        {/* Gradiente só na parte inferior */}
         <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
-
-        {/* Texto alinhado na parte de baixo */}
         <div className="absolute inset-0 flex flex-col items-center justify-end pb-12 text-white px-4">
           <h1 className="text-3xl md:text-4xl font-bold drop-shadow-lg">
             Segunda Igreja Presbiteriana de Gurupi - TO
@@ -33,7 +32,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Seções de Boas-Vindas e Cultos */}
+      {/* ---------------------------------------------------------------- */}
+      {/* 🙌 SEÇÃO DE BOAS-VINDAS E CULTOS */}
+      {/* ---------------------------------------------------------------- */}
       <div className="container mx-auto px-4 py-8 grid gap-6 md:grid-cols-2">
         <div className="bg-white shadow-md p-5 rounded-xl text-center">
           <h2 className="text-xl font-bold mb-2">Seja Bem-vindo!</h2>
@@ -43,14 +44,12 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Bloco Nossos Cultos */}
         <div className="bg-white shadow-md p-5 rounded-xl text-left">
           <h2 className="text-xl font-bold mb-2 text-center">Nossos Cultos</h2>
           <p className="text-center mb-3">
             Participe dos cultos e ministérios da nossa igreja. Todos são
             convidados a estar conosco!
           </p>
-
           <ul className="space-y-2 px-4 text-sm">
             <li className="font-semibold text-gray-800">
               <span className="text-green-800">Quarta-feira:</span>
@@ -69,13 +68,58 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        {/* Fim do Bloco Nossos Cultos */}
       </div>
 
-      {/* Seção: Pastor e Grande Comissão */}
+      {/* ---------------------------------------------------------------- */}
+      {/* 🎉 SEÇÃO DE DESTAQUE DA FESTA - imagem à esquerda + texto à direita */}
+      {/* ---------------------------------------------------------------- */}
+      <div className="container mx-auto px-4 pb-8">
+        <h2 className="text-3xl font-bold text-green-900 mb-4 text-center">
+          Nossa Festa Anual!
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-6 items-center rounded-2xl shadow-xl overflow-hidden bg-[#d8f3dc]">
+          {/* 🖼️ Imagem completa (sem cortes) */}
+          <div className="relative w-full h-[45vh] flex items-center justify-center bg-[#b7e4c7]">
+            <Image
+              src="/festa.jpg"
+              alt="Cartaz da Festa da Igreja"
+              fill
+              className="object-contain p-3"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+
+          {/* 📝 Texto do evento */}
+          <div className="p-6 text-left">
+            <h3 className="text-2xl font-bold text-green-800 mb-3">
+              Semeando o Bem Faz Bem 🌿
+            </h3>
+            <p className="text-gray-700 text-base leading-relaxed">
+              Nos dias <strong>09, 10 e 11 de outubro</strong>, celebraremos
+              juntos os <strong>43 anos do Instituto Presbiteriano Educacional</strong>.
+              Participe conosco dessa festa abençoada, com cultos, atividades
+              para as famílias e atendimentos especiais.
+            </p>
+
+            <ul className="mt-4 space-y-2 text-green-700 font-semibold">
+              <li>📅 Quinta às 19h — Servidores e convidados</li>
+              <li>📅 Sexta às 19h — Com as famílias</li>
+              <li>📅 Sábado às 14h — Atendimentos e programação infantil</li>
+            </ul>
+
+            <p className="text-gray-600 italic mb-6"> 
+              “Alegrei-me quando me disseram: Vamos à casa do Senhor.” (Salmos 122:1)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* ---------------------------------------------------------------- */}
+      {/* ✝️ SEÇÃO: PASTOR E GRANDE COMISSÃO */}
+      {/* ---------------------------------------------------------------- */}
       <div className="container mx-auto px-4 pb-8">
         <div className="bg-gray-100 shadow-xl p-6 rounded-2xl grid gap-6 md:grid-cols-3 items-center">
-          {/* Foto do Pastor */}
           <div className="relative h-56 w-full md:h-64 md:col-span-1 mx-auto">
             <Image
               src="/pastor.jpg"
@@ -85,8 +129,6 @@ export default function Home() {
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
-
-          {/* Texto Bíblico e Chamada */}
           <div className="text-left md:col-span-2">
             <h2 className="text-2xl font-extrabold text-green-800 mb-3">
               Nossa Missão
@@ -103,15 +145,17 @@ export default function Home() {
       </div>
 
       {/* ---------------------------------------------------------------- */}
-      {/* 🛑 SEÇÃO GOOGLE MAPS (Última Seção) */}
+      {/* 📍 SEÇÃO GOOGLE MAPS */}
       {/* ---------------------------------------------------------------- */}
       <div className="bg-gray-50 py-10">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-green-900 mb-6 text-center">
             Encontre-nos
           </h2>
-
-          <div className="relative h-96 w-full rounded-xl overflow-hidden shadow-2xl">
+          <div
+            className="relative w-full rounded-xl overflow-hidden shadow-2xl"
+            style={{ height: "5cm" }}
+          >
             <iframe
               src={googleMapsEmbedUrl}
               width="100%"
@@ -123,7 +167,6 @@ export default function Home() {
               title="Localização da 2ª Igreja Presbiteriana de Gurupi"
             ></iframe>
           </div>
-
           <p className="mt-4 text-center text-gray-600">
             Visite-nos. Será um prazer recebê-lo em nossa comunidade!
           </p>
