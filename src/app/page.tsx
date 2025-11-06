@@ -35,7 +35,7 @@ export default function Home() {
       {/* ---------------------------------------------------------------- */}
       {/* 🙌 SEÇÃO DE BOAS-VINDAS E CULTOS */}
       {/* ----------------------------------------------------------------*/} 
-      /*
+      
       <div className="container mx-auto px-4 py-8 grid gap-6 md:grid-cols-2">
         <div className="bg-white shadow-md p-5 rounded-xl text-center">
           <h2 className="text-xl font-bold mb-2">Seja Bem-vindo!</h2>
