@@ -34,7 +34,8 @@ export default function Home() {
 
       {/* ---------------------------------------------------------------- */}
       {/* 🙌 SEÇÃO DE BOAS-VINDAS E CULTOS */}
-      {/* ---------------------------------------------------------------- */}
+      {/* ----------------------------------------------------------------*/} 
+      /*
       <div className="container mx-auto px-4 py-8 grid gap-6 md:grid-cols-2">
         <div className="bg-white shadow-md p-5 rounded-xl text-center">
           <h2 className="text-xl font-bold mb-2">Seja Bem-vindo!</h2>
@@ -70,16 +71,16 @@ export default function Home() {
         </div>
       </div>
 
-      {/* ---------------------------------------------------------------- */}
-      {/* 🎉 SEÇÃO DE DESTAQUE DA FESTA - imagem à esquerda + texto à direita */}
-      {/* ---------------------------------------------------------------- */}
+      {/* ---------------------------------------------------------------- *
+      {/* 🎉 SEÇÃO DE DESTAQUE DA FESTA - imagem à esquerda + texto à direita *
+      {/* ---------------------------------------------------------------- *
       <div className="container mx-auto px-4 pb-8">
         <h2 className="text-3xl font-bold text-green-900 mb-4 text-center">
           Nossa Festa Anual!
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6 items-center rounded-2xl shadow-xl overflow-hidden bg-[#d8f3dc]">
-          {/* 🖼️ Imagem completa (sem cortes) */}
+          {/* 🖼️ Imagem completa (sem cortes) *
           <div className="relative w-full h-[45vh] flex items-center justify-center bg-[#b7e4c7]">
             <Image
               src="/festa.jpg"
@@ -90,7 +91,7 @@ export default function Home() {
             />
           </div>
 
-          {/* 📝 Texto do evento */}
+          {/* 📝 Texto do evento *
           <div className="p-6 text-left">
             <h3 className="text-2xl font-bold text-green-800 mb-3">
               Semeando o Bem Faz Bem 🌿
@@ -114,6 +115,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      */}
 
       {/* ---------------------------------------------------------------- */}
       {/* ✝️ SEÇÃO: PASTOR E GRANDE COMISSÃO */}
